@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing : Create Account</title>
+
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    
+    <img src="img/loading-gif.webp" alt="" class="loader">
+
+    <div class="alert-box ">
+        <img src="img/error.png" alt="" class="alert-img">
+        <p class="alert-msg">Error Message</p>
+    </div>
+
+    <div class="container">
+        <img src="img/dark-logo.png" alt="" class="logo">
+        <div>
+            <input type="text" autocomplete="off" id="name" placeholder="name">
+            <input type="email" autocomplete="off" id="email" placeholder="email">
+            <input type="password" autocomplete="off" id="password" placeholder="password">
+            <input type="text" autocomplete="off" id="number" placeholder="number">
+            <input type="checkbox" checked class="checkbox" id="terms-and-cond">
+            <label for="terms-and-cond">agree to our <a href="">terms and conditions</a></label>
+            <br>
+            <input type="checkbox" class="checkbox" id="notification">
+            <label for="notification">recieve upcoming offers and event mails</label>
+            <button class="submit-btn">create an account</button>
+        </div>
+        <a href="/login" class="link">already have an account? Login here</a>
+    </div>
+
+    <script src="js/token.js"></script>
+    <script src="js/form.js"></script>
+
+</body>
+</html>
